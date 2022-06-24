@@ -14,36 +14,70 @@ The following table provides brief specification of ThinC-VAULT device.
 <table>
   <tr>
     <th>Feature</th>
-    <th>Type</th>
+    <th>Specification / Description</th>
     </tr>
   <tr>
-    <td>Number of Users</td>
-    <td>5</td>
+    <td>Connectivity</td>
+    <td><li>High-speed USB 2.0</td>
 
   </tr>
    <tr>
-    <td>Each User fingerprint slots available</td>
-    <td>3</td>
+    <td>Capacity</td>
+    <td><li>32GB<li> 64GB <li> 128GB</td>
   
   </tr>
   <tr>
-    <td>Number of Groups</td>
-    <td>3</td>
-  
-  </tr>
+    <td>Fingerprint Biometrics</td>
+    <td><li>Capacitive touch based fingerprint sensor 
+        </td>
+    </tr>
    <tr>
-    <td>Number Partitions</td>
-    <td>8</td>
+    <td>Security & Cryptology </td>
+    <td><li> AES256 for Fingerprint store and data encryption </li>
+<li>Dynamic on-chip Key generation </li>
+<li>Design in compliance with FIPS 140-2 Level 2 standards </li>
+<li>Individual partitions are encrypted with different key</li></td>
    
   </tr>
     <tr>
-    <td>Partitions assignment for single user</td>
-    <td>No restriction</td>
+    <td>Certifications</td>
+    <td><li> FCC
+        <li>CE
+    </td>
 
   </tr>
      <tr>
-    <td>Partitions assignment for Group</td>
-    <td>1</td>
+    <td>Partitions</td>
+    <td>Upto 8 partitions are supported</td>
+    
+  </tr>
+       <tr>
+    <td>Access Control</td>
+    <td><li>Read / Write
+        <li>Read Only
+        <li>Password for partition</td>
+    
+  </tr>
+       <tr>
+    <td>Performance</td>
+    <td><li>Durability: ~20,000 insertion cycles
+<li>Typical Average Read speed: ~38 Mbps
+<li>Typical Average Write speed: ~35 Mbps </td>
+    
+  </tr>
+       <tr>
+    <td>Partitions</td>
+    <td>Upto 8 partitions are supported</td>
+    
+  </tr>
+       <tr>
+    <td>Partitions</td>
+    <td>Upto 8 partitions are supported</td>
+    
+  </tr>
+       <tr>
+    <td>Partitions</td>
+    <td>Upto 8 partitions are supported</td>
     
   </tr>
 </table>
@@ -56,49 +90,49 @@ This section describes the overall functional features / device configurations
 <table>
   <tr>
     <th>Feature</th>
-    <th>Type</th>
+    <th>Description</th>
     </tr>
   <tr>
     <td>Number of Users</td>
     <td>5</td>
-
+  </tr>
+  <tr>
+    <td>Total Number of Fingerpint slots</td>
+    <td>15</td>
   </tr>
    <tr>
     <td>Each User fingerprint slots available</td>
     <td>3</td>
-  
   </tr>
   <tr>
     <td>Number of Groups</td>
     <td>3</td>
-  
   </tr>
    <tr>
     <td>Number Partitions</td>
     <td>8</td>
-   
   </tr>
     <tr>
     <td>Partitions assignment for single user</td>
     <td>No restriction</td>
-
   </tr>
     <tr>
         <td>Partitions assignment for Group</td>
         <td>1</td>
     </tr>
     <tr>
-        <td>Partition PIN</td>
-        <td>Yes</td>
-    </tr>
-    <tr>
         <td>Binding types</td>
             <td>
-                PC Binding<br/>
-                IP Binding<br/>
-                MAC Binding<br/>
-                Network Binding<br/>
+                <li>PC Binding
+                <li>IP Binding
+                <li>MAC Binding
+                <li>Network Binding
             </td>
     </tr>
 </table>
+
+~~~
+Memory calculation for ThinC-VAULT considers the following:
+1GB= 1,000,000,000 bytes or 1GB=1000MB
+~~~
 
