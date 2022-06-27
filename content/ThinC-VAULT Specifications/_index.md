@@ -44,41 +44,18 @@ The following table provides brief specification of ThinC-VAULT device.
     <td><li> FCC
         <li>CE
     </td>
-
   </tr>
-     <tr>
-    <td>Partitions</td>
-    <td>Upto 8 partitions are supported</td>
-    
-  </tr>
-       <tr>
-    <td>Access Control</td>
-    <td><li>Read / Write
-        <li>Read Only
-        <li>Password for partition</td>
-    
-  </tr>
+   <tr>
+      <td>Access Control</td>
+      <td><li>Read / Write
+          <li>Read Only
+          <li>Password for partition</td>
+    </tr>
        <tr>
     <td>Performance</td>
     <td><li>Durability: ~20,000 insertion cycles
-<li>Typical Average Read speed: ~38 Mbps
-<li>Typical Average Write speed: ~35 Mbps </td>
-    
-  </tr>
-       <tr>
-    <td>Partitions</td>
-    <td>Upto 8 partitions are supported</td>
-    
-  </tr>
-       <tr>
-    <td>Partitions</td>
-    <td>Upto 8 partitions are supported</td>
-    
-  </tr>
-       <tr>
-    <td>Partitions</td>
-    <td>Upto 8 partitions are supported</td>
-    
+        <li>Typical Average Read speed: ~38 Mbps
+        <li>Typical Average Write speed: ~35 Mbps </td>
   </tr>
 </table>
 
@@ -93,7 +70,7 @@ This section describes the overall functional features / device configurations
     <th>Description</th>
     </tr>
   <tr>
-    <td>Number of Users</td>
+    <td>Number of configurable Users</td>
     <td>5</td>
   </tr>
   <tr>
@@ -101,11 +78,11 @@ This section describes the overall functional features / device configurations
     <td>15</td>
   </tr>
    <tr>
-    <td>Each User fingerprint slots available</td>
+    <td>Fingerprint slots available for each User  </td>
     <td>3</td>
   </tr>
   <tr>
-    <td>Number of Groups</td>
+    <td>Number of Groups supported</td>
     <td>3</td>
   </tr>
    <tr>
@@ -113,7 +90,7 @@ This section describes the overall functional features / device configurations
     <td>8</td>
   </tr>
     <tr>
-    <td>Partitions assignment for single user</td>
+    <td>Partition(s) assignment for single user</td>
     <td>No restriction</td>
   </tr>
     <tr>
