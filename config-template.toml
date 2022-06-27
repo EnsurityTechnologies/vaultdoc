@@ -1,7 +1,4 @@
 title = "DocPort Documentation"
-
-theme = "hugo-theme-docport"
-
 baseURL = "https://example.com"
 
 languageCode = "en-us"
