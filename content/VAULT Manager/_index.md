@@ -13,7 +13,10 @@ For a fresh/new device, after connecting the ThinC-VAULT device to the computer 
 VAULT Manager tool can be downloaded from the following links
 
 <link>
-<a><href ></href></a>
+    <a>
+        <href >
+        </href>
+    </a>
 </link>
 
 Management tool for ThinC-VAULT has four sub tabs i.e 

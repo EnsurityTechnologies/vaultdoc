@@ -25,6 +25,9 @@ ThinC Manager tool uninstall window will ask to reconfirm Uninstallation process
 
 
 Step 4:
-Uninstaller will remove / delete ThinC Agent files from installation directory. After uninstalling the tool, Microsoft Windows will show "ThinC Manager has been uninstalled from your computer" click Finish to complete the uninstallation process. In case of any issue during uninstallation kindly contact thinc.support@ensurity.com with subject "Uninstall-Windows".
+Uninstaller will remove / delete ThinC Agent files from installation directory. After uninstalling the tool, Microsoft Windows will show "ThinC Manager has been uninstalled from your computer" click Finish to complete the uninstallation process.
+
+
+In case of any issue during uninstallation kindly contact thinc.support@ensurity.com with subject "Uninstall-Windows".
 
 

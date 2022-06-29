@@ -1,7 +1,7 @@
 ---
 description: ""
-title: ThinC-VAULT Specifications
-weight: 2
+title: Specifications
+weight: 1
 ---
 
 Outlined below are the hardware specifications and the features available for ThinC-VAULT

@@ -7,9 +7,10 @@ weight: 3
 VAULT Manager is a standalone management tool to administer ThinC devices/s partitions, fingerprint enrolment, binding etc. Ensure that tool is installed in required computer before proceeding further [refer to installation section in the manual for installing].
 
 This tool is used for managing ThinC-VAULT. Connect the ThinC-VAULT to computer USB port, the device would power on, initialize and install necessary drivers automatically and await to read fingerprint or enroll fingerprints. 
-
-{{% panel %}}For a fresh/new device, upon connecting to the computer USB port a Public drive of 500MB will automatically initializes.{{% /panel %}}
-
+<div class="alert alert-primary" role="alert">
+<h5 class="alert-heading">Note</h5>
+For a fresh/new device, upon connecting to the computer USB port a Public drive of 500MB will automatically initializes.
+</div>
 
 The ThinC-VAULT device has two types of users. 
 

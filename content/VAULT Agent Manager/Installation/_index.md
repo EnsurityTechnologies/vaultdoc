@@ -14,11 +14,12 @@ Please download ThinC Agent tool installer for Microsoft Windows operating
 
 Step 1:
 Open the downloaded file to begin the installation wizard. 
-
-  During the installation process in Microsoft Windows<sup><span style="font-size:15px ">&copy;</span></sup> 8.1 / Windows<sup><span style="font-size:15px ">&copy;</span></sup> 10 or above, it is possible that Microsoft Smart Screen protector may pop up window for permission. Kindly choose to provide necessary permissions by selecting 'Run Anyway' (or equivalent).
-
- It is possible that the User Access control / Antivirus / End Point Protector software could request you to approve the installation of the software. Kindly choose to permit any such request that may be popped up during installation. 
-
+<div class="alert alert-primary" role="alert">
+During the installation process in Microsoft Windows<sup><span style="font-size:15px ">&copy;</span></sup> 8.1 / Windows<sup><span style="font-size:15px ">&copy;</span></sup> 10 or above, it is possible that Microsoft Smart Screen protector may pop up window for permission. Kindly choose to provide necessary permissions by selecting 'Run Anyway' (or equivalent).
+</div>
+<div class="alert alert-primary" role="alert">
+It is possible that the User Access control / Antivirus / End Point Protector software could request you to approve the installation of the software. Kindly choose to permit any such request that may be popped up during installation. 
+</div>
  
 
 
