@@ -60,7 +60,7 @@ The following table provides brief specification of ThinC-VAULT device.
 </table>
 
 
-## Features
+## Software Features
 
 This section describes the overall functional features / device configurations
 
