@@ -4,7 +4,7 @@ title: ThinC-VAULT Specifications
 weight: 2
 ---
 
-Outlined below are the hardware specifications and the features available for ThinC-VAULT
+Outlined below are the hardware specifications, features and LED indicators. 
 
 ## Hardware Specifications
 
