@@ -120,148 +120,96 @@ The following table indicates the state of LED after the device is connected and
 
 <table>
   <tr>
-  <th >Function</th>
-  <th>State
-  </th>
-  <th>LED State
-  </th>
-  <th>Remarks
-  </th>
+    <th>Function</th>
+    <th>State</th>
+    <th>LED State</th>
+    <th>Remarks</th>
   </tr>
   <tr>
-  <td>Power On
-  </td>
-  <td>-
-  </td>
-  <td> <img alt="" style="padding : 1px;" src="GLOWPINK.png"></td>
-  <td>Typically, 1-2 seconds
-  </td>
+    <td>Power On</td>
+    <td>-</td>
+    <td><img alt="" style="padding : 1px;" src="GLOWPINK.png"></td>
+    <td>Typically, 1-2 seconds</td>
   </tr>
   <tr>
-  <td>BITE (Built In Test)
-  </td>
-  <td>-
-  </td>
-  <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png">
-  </td>
-  <td>BITE Successful
-  </td>
+    <td>BITE (Built In Test)</td>
+    <td>-</td>
+    <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png"></td>
+    <td>BITE Successful</td>
   </tr>
   <tr>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td><img alt="" style="padding : 1px;  " src="GLOWRED.png">
-  </td>
-  <td>BITE Failure after 7 sec
-  </td>
+    <td></td>
+    <td></td>
+    <td><img alt="" style="padding : 1px;  " src="GLOWRED.png"></td>
+    <td>BITE Failure after 7 sec</td>
   </tr>
   <tr>
-  <td >Fingerprint scan
-  </td>
-  <td>Wait
-  </td>
-  <td ><img alt="" style="padding : 1px;" src="GLOWPINK.png">
-  </td>
-  <td>Wait for fingerprint - typically 30 sec time out.
-  </td>
+    <td rowspan="3" >Fingerprint scan</td>
+    <td>Wait</td>
+    <td><img alt="" style="margin. : 1px;" src="GLOWPINK.png"></td>
+    <td>Wait for fingerprint - typically 30 sec time out.</td>
   </tr>
-  <tr>
-  <td >Process
-  </td>
-  <td ><img alt="" style="padding : 1px; " src="SLOWBLINKING BLUE.png">
-  </td>
-  <td >
-  </td>
+   <td>Process</td>
+    <td ><img alt="" style="padding : 1px; " src="SLOWBLINKING BLUE.png"></td>
+    <td >
+    </td>
   </tr>
   <tr >
-  <td>Success
-  </td>
-  <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png">
-  </td>
-  <td>Typically, 1-2 seconds
-  </td>
+    <td>Success</td>
+    <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png"></td>
+    <td rowspan="5">Typically, 1-2 seconds</td>
   </tr>
   <tr >
-  <td >Fail
-  </td>
-  <td ><img alt="" style="padding : 1px; " src="REDBLINKING.png">
-  </td>
+    <td></td>
+    <td >Fail</td>
+    <td ><img alt="" style="padding : 1px; " src="REDBLINKING.png"></td>
   </tr>
   <tr>
-  <td >Delete Fingerprint
-  </td>
-  <td>Success
-  </td>
-  <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png">
-  </td>
+    <td rowspan="2" >Delete Fingerprint</td>
+    <td>Success</td>
+    <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png"></td>
   </tr>
   <tr >
-  <td>Fail
-  </td>
-  <td><img alt="" style="padding : 1px; " src="REDBLINKING.png">
-  </td>
+    <td>Fail</td>
+    <td><img alt="" style="padding : 1px; " src="REDBLINKING.png"></td>
   </tr>
   <tr>
-  <td>Factory Reset
-  </td>
-  <td>Success
-  </td>
-  <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png">
-  </td>
+    <td rowspan="3">Factory Reset</td>
+    <td>Success</td>
+    <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png"></td>
   </tr>
   <tr>
-  <td >After Reset
-  </td>
-  <td><img alt="" style="padding : 1px;" src="REDBLINKING.png">
-  </td>
-  <td>Disconnect and reconnect the device
-  </td>
+    <td>After Reset</td>
+    <td><img alt="" style="padding : 1px;" src="REDBLINKING.png"></td>
+    <td>Disconnect and reconnect the device</td>
   </tr>
   <tr>
-  <td>Fail
-  </td>
-  <td><img alt="" style="padding : 1px; " src="SLOWBLINKING PINK.png">
-  </td>
-  <td>Typically, 1-2 seconds
-  </td>
+    <td>Fail</td>
+    <td><img alt="" style="padding : 1px; " src="SLOW BLINKING RED.png"></td>
+    <td>Typically, 1-2 seconds</td>
   </tr>
   <tr >
-  <td >SD Card Operations
-  </td>
-  <td>Read/Write
-  </td>
-  <td><img alt="" style="padding : 1px; margin : 0px 20px;" src="SLOWBLINKINGBLUE.png">
-  </td>
-  <td>Data read / write from the device</td>
+    <td >SD Card Operations</td>
+    <td>Read/Write</td>
+    <td><img alt="" style="padding : 1px; margin : 0px 20px; " src="SLOWBLINKING BLUE.png"></td>
+    <td>Data read / write from the device</td>
   </tr>
 </table>
 
 </div>
 
-<table>
-<tr >
-  <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png">
-  </td>
-  
-<td><img alt="" style="padding : 1px;" src="REDBLINKING.png">
-</td>
-<td><img alt="" style="padding : 1px;" src="SLOWBLINKING BLUE.png">
-</td>
-<td><img alt="" style="padding : 1px;" src="SLOWBLINKING RED.png">
-</td>
-<td><img alt="" style="padding : 1px;" src="GLOWPINK.png">
-</td>
-<td><img alt="" style="padding : 1px;" src="GLOWRED.png">
-</td>
-</tr>
-<tr >
-<td>Blinking
-</td>
-<td >Slow Blinking
-</td>
-<td >Glow
-</td>
-</tr>
+<table style="border: 1px solid black; background-color: #96D4D4">
+  <tr> 
+      <td style="border: 1px solid black; "><img alt=""  src="BLUEBLINKING.png"></td>
+      <td style="border: 1px solid black; "><img alt=""  src="REDBLINKING.png"></td>
+      <td style="border: 1px solid black; "><img alt=""  src="SLOWBLINKING BLUE.png"></td>
+      <td style="border: 1px solid black; "><img alt=""  src="SLOW BLINKING RED.png"></td>
+      <td style="border: 1px solid black; "><img alt="" src="GLOWPINK.png"></td>
+      <td style="border: 1px solid black; "><img alt=""  src="GLOWRED.png"></td>
+  </tr>
+  <tr>
+      <td colspan="2" style="padding : 20px; border: 1px solid black; text-align: center;">Blinking</td>
+      <td colspan="2" style="padding : 20px; border: 1px solid black; text-align: center;">Slow Blinking</td>
+      <td colspan="2" style="padding : 20px; border: 1px solid black; text-align: center;">Glow</td>
+  </tr>
 </table>
