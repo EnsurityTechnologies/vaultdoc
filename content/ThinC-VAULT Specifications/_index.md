@@ -198,6 +198,8 @@ The following table indicates the state of LED after the device is connected and
 
 </div>
 
+### LED Status
+
 <table style="border: 1px solid black; background-color: #96D4D4">
   <tr> 
       <td style="border: 1px solid black; "><img alt=""  src="BLUEBLINKING.png"></td>

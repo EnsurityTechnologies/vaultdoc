@@ -6,20 +6,16 @@ weight: 1
 
 
 
-This section of the manual describes installation process of VAULT Agent tool for Microsoft<sup><span style="font-size:15px ">&copy;</span></sup> Windows<sup><span style="font-size:15px ">&copy;</span></sup> and macOS<sup><span style="font-size:15px ">&copy;</span></sup>. ThinC Agent tool is a software utility required for unlocking partitions and unbinding the device. 
-
-### Microsoft<sup><span style="font-size:15px ">&copy;</span></sup> Windows<sup><span style="font-size:15px ">&copy;</span></sup> operating system.
-
-Please download ThinC Agent tool installer for Microsoft Windows operating system. 
+This section of the manual describes installation process of VAULT Agent tool for Microsoft<sup><span style="font-size:15px ">&copy;</span></sup> Windows<sup><span style="font-size:15px ">&copy;</span></sup> and macOS<sup><span style="font-size:15px ">&copy;</span></sup>. VAULT Agent tool is a software utility required for unlocking partitions and unbinding the device. 
 
 Step 1:
 Open the downloaded file to begin the installation wizard. 
-<div class="alert alert-primary" role="alert">
-During the installation process in Microsoft Windows<sup><span style="font-size:15px ">&copy;</span></sup> 8.1 / Windows<sup><span style="font-size:15px ">&copy;</span></sup> 10 or above, it is possible that Microsoft Smart Screen protector may pop up window for permission. Kindly choose to provide necessary permissions by selecting 'Run Anyway' (or equivalent).
-</div>
-<div class="alert alert-primary" role="alert">
+{{% notice %}}
+During the installation process in Microsoft<sup><span style="font-size:15px ">&copy;</span></sup> Windows<sup><span style="font-size:15px ">&copy;</span></sup> 8.1 / Windows<sup><span style="font-size:15px ">&copy;</span></sup> 10 or above, it is possible that Microsoft Smart Screen protector may pop up window for permission. Kindly choose to provide necessary permissions by selecting 'Run Anyway' (or equivalent).
+{{% /notice %}}
+{{% notice %}}
 It is possible that the User Access control / Antivirus / End Point Protector software could request you to approve the installation of the software. Kindly choose to permit any such request that may be popped up during installation. 
-</div>
+{{% /notice %}}
  
 
 

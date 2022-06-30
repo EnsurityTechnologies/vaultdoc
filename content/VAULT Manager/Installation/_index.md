@@ -6,25 +6,20 @@ weight: 1
 
 VAULT Manager tool is a software utility required for registering the fingerprints, partitions and managing permissions to the partitions. To utilize the device the following steps has to be followed,
     
-* Register / Enroll fingerprint biometrics using ThinC Manager Tool 
+* Register / Enroll fingerprint biometrics using VAULT Manager Tool 
 * Create partition and assign permissions.
       
-The VAULT Manager tool installer can be downloaded from the URLs / web links provided below
-
-
-##  Installation for Microsoft<sup><span style="font-size:15px ">&copy;</span></sup> Windows<sup><span style="font-size:15px ">&copy;</span></sup> OS.
-
-Please download ThinC Manager tool 
+###  Installation procedure
 
 Step 1: Open the downloaded file to begin the installation wizard. 
 
-<div class="alert alert-primary" role="alert">
+{{% notice %}}
   During the installation process in Microsoft<sup><span style="font-size:15px ">&copy;</span></sup>  Windows<sup><span style="font-size:15px ">&copy;</span></sup>  8.1 / Windows<sup><span style="font-size:15px ">&copy;</span></sup>  10 or above, it is possible that Microsoft Smart Screen protector may pop up window for permission. Kindly choose to provide necessary permissions by selecting 'Run Anyway' (or equivalent).
-</div>
+{{% /notice %}}
 
-<div class="alert alert-primary" role="alert">
+{{% notice %}}
   It is possible that the User Access control / Antivirus / End Point Protector software could request you to approve the installation of the software. Kindly choose to permit any such request that may be popped up during installation.
-</div>
+{{% /notice %}}
 
  
 
@@ -51,18 +46,3 @@ After the installation is successfully completed, click on Finish to complete th
 Use desktop shortcut or start menu shortcut or navigate to install path to run ThinC Management tool.
 
 In case of any issue or error during the installation, please contact support at thinc.support@ensurity.com or visit us on ensurity.com for technical support.
-
-##  Installation for macOS<sup><span style="font-size:15px ">&copy;</span></sup>
-
-
-
-
-
-
-
-
-
-
-
-
-
