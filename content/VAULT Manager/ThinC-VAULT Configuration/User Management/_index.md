@@ -5,11 +5,11 @@ weight: 1
 ---
 
 
-User Creation:
+## User Creation
 
 ThinC Manager tool has capability to automatically distinguish between fresh / reset / unregistered device and fingerprint enrolled / registered device. In case of fingerprint enrolled / registered device it is mandatory for the registered user to authenticate before accessing Management functions. The step 1 below provide process to access management function for device with enrolled fingerprint, see to step 2 for unregistered device or first time fingerprint enrollment. 
 
- The tool will automatically skip to step 2 to initiate the initial authentication process for new fresh / reset / unregistered device. 
+The tool will automatically skip to step 2 to initiate the initial authentication process for new fresh / reset / unregistered device. 
 
 Step 1:
 Click on Authenticate and place enrolled finger on the Touch sensor. The tool will request ThinC-VAULT to verify the finger and provide access after successful verification. This step is skipped by tool automatically for fresh / reset / unregistered device.
@@ -33,7 +33,7 @@ The tool displays a dialog box "Create New User". In the dialog box, select User
 
  Only the device administrator can add / remove users or fingerprints.  
 
-User Deletion:
+## User Deletion
 
 In the user management window click on  in the user tile to delete the user. After successful deletion of the user "Delete User Successful" notification will be displayed by the tool. 
 
@@ -41,12 +41,12 @@ In the user management window click on  in the user tile to delete the user. Aft
 
 
 
- The Admin user can only be deleted by performing a factory reset
-  If the user is deleted, the corresponding access rights to the partition will be removed.
+The Admin user can only be deleted by performing a factory reset
+If the user is deleted, the corresponding access rights to the partition will be removed.
 
 
   
-Register Users fingerprints
+## Register Users fingerprints
 
 The tool will automatically showcase fingerprint management window for the user created. Fingerprint management window provides 10 slots to choose for enrolment of finger. Choose the finger slot of your choice by clicking on  icon to enroll the fingerprint. Click on "Yes enroll!" to initiate enrollment process, click No to abort enrollment process.
 
@@ -79,7 +79,7 @@ Tool will automatically initiate the verification and shall provide results by n
 
 
 
-De-Register Users fingerprints
+## Remove All fingerprints
 
 The Fingerprint management allows deletion / de-registration of individual fingerprints.
 

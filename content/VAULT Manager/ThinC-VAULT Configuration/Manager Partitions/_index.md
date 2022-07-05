@@ -7,9 +7,9 @@ weight: 2
 
 This section of the document describes the process of creating, deleting partitions with and without password in ThinC-Manager application.  
 
-Set / Edit / Manage Partitions without Password
+## Set / Edit / Manage Partitions without Password
 
-Create Partition 
+### Create Partition 
 
 To manage the partitions on ThinC-VAULT device, goto ThinC Manager tool partition tab (by clicking on partitions). This tab shows the partition information (Name & Size) and unallocated space in the form of doughnut chart.
 
@@ -31,7 +31,7 @@ The tool displays a pop up "Partition Added successfully. The new partition will
 
 
 
-Deletion of Partitions
+### Deletion of Partitions
 
 ThinC-VAULT supports deletion of selected partitions. Please use the following procedure to delete partition(s).  
 
@@ -46,17 +46,16 @@ After successful deletion of the partition "Deleting partition successful" notif
 
 
 
-
-  Please remove and reconnect ThinC-VAULT device after delete operations
-  Deleting a given partition will delete the contents stored in the partition. Deleting all partitions will delete contents stored in all partitions.
-
+Please remove and reconnect ThinC-VAULT device after delete operations
+Deleting a given partition will delete the contents stored in the partition. Deleting all partitions will delete contents stored in all partitions.
 
 
 
-Set / Edit / Manage Partitions with Password
+
+## Set / Edit / Manage Partitions with Password
 
 
-Create Partition 
+### Create Partition 
 
 To manage the partitions on ThinC-VAULT device, goto ThinC Manager tool partition tab (by clicking on partitions). This tab shows the partition information (Name, Size, User access rights) and storage capacities in the form of doughnut chart.
 
@@ -82,7 +81,7 @@ The tool displays a pop up "Partition Added successfully. The new partition will
 
 
 
-Deletion of Partitions
+### Deletion of Partitions
 
 ThinC-VAULT supports deletion of selected partitions. Please use the following procedure to delete partition.  
 
@@ -101,8 +100,7 @@ Unlock the partition by entering the Password to proceed with the deletion.
 After successful deletion of the partition "Deleting partition successful" notification will be displayed by the tool. Kindly disconnect and reconnect the ThinC-VAULT device. Authenticate the device using enrolled fingerprint to re-login .  
 
 
-
-  Please remove and reconnect ThinC-VAULT device after delete operations
-  Deleting a given partition will delete the contents stored in the partition. Deleting all partitions will delete contents stored in all partitions.
+Please remove and reconnect ThinC-VAULT device after delete operations
+Deleting a given partition will delete the contents stored in the partition. Deleting all partitions will delete contents stored in all partitions.
 
 

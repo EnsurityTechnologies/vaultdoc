@@ -19,12 +19,10 @@ The following table provides brief specification of ThinC-VAULT device.
   <tr>
     <td>Connectivity</td>
     <td><li>High-speed USB 2.0</td>
-
   </tr>
-   <tr>
+  <tr>
     <td>Capacity</td>
     <td><li>32GB<li> 64GB <li> 128GB</td>
-  
   </tr>
   <tr>
     <td>Fingerprint Biometrics</td>
@@ -117,7 +115,6 @@ Memory calculation for ThinC-VAULT considers the following:
 
 The following table indicates the state of LED after the device is connected and powered on
 
-
 <table>
   <tr>
     <th>Function</th>
@@ -128,41 +125,34 @@ The following table indicates the state of LED after the device is connected and
   <tr>
     <td>Power On</td>
     <td>-</td>
-    <td><img alt="" style="padding : 1px;" src="GLOWPINK.png"></td>
+    <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png"></td>
     <td>Typically, 1-2 seconds</td>
   </tr>
   <tr>
-    <td>BITE (Built In Test)</td>
+    <td rowspan="2">BITE (Built In Test)</td>
     <td>-</td>
     <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png"></td>
     <td>BITE Successful</td>
   </tr>
   <tr>
     <td></td>
-    <td></td>
     <td><img alt="" style="padding : 1px;  " src="GLOWRED.png"></td>
     <td>BITE Failure after 7 sec</td>
   </tr>
   <tr>
-    <td rowspan="3" >Fingerprint scan</td>
+    <td rowspan="3">Fingerprint scan</td>
     <td>Wait</td>
-    <td><img alt="" style="margin. : 1px;" src="GLOWPINK.png"></td>
+    <td><img alt="" style="margin. : 1px;" src="BLUEBLINKING.png"></td>
     <td>Wait for fingerprint - typically 30 sec time out.</td>
   </tr>
    <td>Process</td>
     <td ><img alt="" style="padding : 1px; " src="SLOWBLINKING BLUE.png"></td>
-    <td >
-    </td>
+    <td> test</td>
   </tr>
   <tr >
-    <td>Success</td>
-    <td><img alt="" style="padding : 1px;" src="BLUEBLINKING.png"></td>
-    <td rowspan="5">Typically, 1-2 seconds</td>
-  </tr>
-  <tr >
-    <td></td>
     <td >Fail</td>
     <td ><img alt="" style="padding : 1px; " src="REDBLINKING.png"></td>
+    <td> </td>
   </tr>
   <tr>
     <td rowspan="2" >Delete Fingerprint</td>
